@@ -15,7 +15,7 @@ mkdir -p ~/wkhtmltopdf
 cd ~/wkhtmltopdf
 wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-3/wkhtmltox-0.12.6-3.archlinux-x86_64.pkg.tar.xz
 tar -xf wkhtmltox-0.12.6-3.archlinux-x86_64.pkg.tar.xz
-export PATH=~/wkhtmltopdf/usr/local/bin:$PATH
+export PATH=~/wkhtmltopdf/usr/bin:$PATH
 source ~/.bashrc
 ```
 To convert TeX files to images, you need to install TeXLive. You can refer to the following TeXLive installation guide.
