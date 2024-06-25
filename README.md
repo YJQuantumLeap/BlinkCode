@@ -38,7 +38,7 @@ BlinkCode is released under the MIT License.
 
 #### Math Problems:
 
-- Math-V: Derived from the MATH Dataset (https://huggingface.co/datasets/MathLLMs/MathVision), including mathematical reasoning problems with visual contexts and descriptions written on images.
+- Math-V: Derived from the MathVision Dataset (https://huggingface.co/datasets/MathLLMs/MathVision), including mathematical reasoning problems with visual contexts and descriptions written on images.
 
 #### Visual Reconstruction Tasks:
 
