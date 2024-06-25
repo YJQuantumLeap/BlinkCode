@@ -27,7 +27,7 @@ Please refer to [INSTALL.md](INSTALL.md).
 Please refer to [EVALUATION.md](EVALUATION.md).
 
 ## License
-BlinkCode is released under Apache License Version 2.0.
+BlinkCode is released under the MIT License.
 
 ## Declaration
 ### Data Sources 
