@@ -32,17 +32,17 @@ BlinkCode is released under the MIT License.
 ## Declaration
 ### Data Sources 
 #### Basic Coding Problems:
-- HumanEval-V: Adapted from the HumanEval Dataset (https://huggingface.co/datasets/openai/openai_humaneval) by writing problem descriptions directly on images.
-- MBPP-V: Adapted from the MBPP Dataset (https://huggingface.co/datasets/google-research-datasets/mbpp), also with problem descriptions written on images.
-- GSM8K-V: Adapted from the GSM8K Dataset (https://huggingface.co/datasets/openai/gsm8k), focusing on challenging competition mathematics problems with descriptions written on images.  
+- HumanEval-V: HumanEval Dataset (https://github.com/openai/human-eval) under its license (https://github.com/openai/human-eval/blob/master/LICENSE). Copyright belongs to the original dataset owner.
+- MBPP-V: MBPP Dataset (https://huggingface.co/datasets/google-research-datasets/mbpp) under its license (https://github.com/google-research/google-research/blob/master/LICENSE). Copyright belongs to the original dataset owner.
+- GSM8K-V: GSM8K Dataset (https://github.com/openai/grade-school-math) under its license (https://github.com/openai/grade-school-math/blob/master/LICENSE). Copyright belongs to the original dataset owner.
 
 #### Math Problems:
 
-- Math-V: Derived from the MathVision Dataset (https://huggingface.co/datasets/MathLLMs/MathVision), including mathematical reasoning problems with visual contexts and descriptions written on images.
+- Math-V: MATH-V Dataset (https://github.com/mathvision-cuhk/MATH-V) under its license (https://github.com/mathvision-cuhk/MATH-V/blob/main/LICENSE). Copyright belongs to the original dataset owner.
 
 #### Visual Reconstruction Tasks:
 
-- Webpage Reconstruction: Screenshots from a diverse collection of websites, ensuring each screenshot contains an appropriate amount of information for reconstruction.
+- Webpage Reconstruction: Screenshots from a diverse collection of websites,.
 - Scientific Plot Reconstruction: Examples plotted with Matplotlib from its official documentation, selected for diversity in types, styles, and contents.
 - SVG Reconstruction: Basic graphics selected from online SVG examples.
 - TikZ Figure Reconstruction: Examples selected from the PGF and TikZ examples gallery.
@@ -58,3 +58,12 @@ If you find this repository helpful, please consider citing it:
 ```
 our cite
 ```
+## Acknowledgements
+
+We gratefully acknowledge the following individuals and projects whose work has inspired or directly contributed to the development of our current codebase:
+
+- **Humaneval:** Our evaluation methods have been inspired by OpenAI's Humaneval project.
+
+- **ViperGPT:** We have incorporated code structures from ViperGPT into our implementation.
+
+These contributions have been instrumental in shaping our current implementation, and we extend our sincere thanks to the respective creators and contributors.
