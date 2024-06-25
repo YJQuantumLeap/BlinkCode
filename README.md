@@ -42,7 +42,7 @@ BlinkCode is released under the MIT License.
 
 #### Visual Reconstruction Tasks:
 
-- Webpage Reconstruction: Screenshots from a diverse collection of websites,.
+- Webpage Reconstruction: Screenshots from a diverse collection of websites.
 - Scientific Plot Reconstruction: Examples plotted with Matplotlib from its official documentation, selected for diversity in types, styles, and contents.
 - SVG Reconstruction: Basic graphics selected from online SVG examples.
 - TikZ Figure Reconstruction: Examples selected from the PGF and TikZ examples gallery.
@@ -52,6 +52,11 @@ BlinkCode is released under the MIT License.
 - Custom Collected Images: For visual programming tasks, specific images were collected from the web, and corresponding special questions were designed such that the problems cannot be solved without observing the visual content of the images.
 
 Please contact us if you believe any data infringes upon your rights, and we will remove it.
+
+### Content Disclaimer
+The screenshots and code used in Visual Reconstruction Tasks and Visual Programming Problems are sourced from publicly accessible materials or are used under appropriate licenses for academic research purposes. This project does not assert ownership of these materials and acknowledges the rights of their respective owners.
+
+All efforts have been made to ensure compliance with copyright laws and permissions. If you believe that your rights have been infringed upon, please contact us immediately so that we can resolve the issue promptly.
 
 ## Citing
 If you find this repository helpful, please consider citing it:
