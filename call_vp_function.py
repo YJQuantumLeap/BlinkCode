@@ -39,6 +39,6 @@ def execute_command(image) -> str:
 #     image_patch = ImagePatch(im)
 #     return str(image_patch.simple_query("What's in the picture")) + image_patch.OCR()
 """
-    image_path = "/home/huangyajun/data/dataset_MLLM_code_ability/image.png"
+    image_path = os.getcwd() + "/viper/image.png"
     timeout = 300
     print(run_vp_code(code, image_path, timeout))
