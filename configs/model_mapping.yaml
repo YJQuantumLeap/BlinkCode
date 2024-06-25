@@ -1,0 +1,10 @@
+two_image_models:
+  llava-v1.6-vicuna-13b-hf: LlavaV16Vicuna13BHF
+  gpt-4-vision-preview: OpenAIModel
+  gpt-4-turbo-2024-04-09: OpenAIModel
+  gpt-4o-2024-05-13: OpenAIModel
+  qwen-vl-plus: QwenModel
+  qwen-vl-max: QwenModel
+  claude-3-5-sonnet-20240620: OpenAIModel
+one_image_models:
+  paligemma-3b-mix-224: PaliGemmaModel

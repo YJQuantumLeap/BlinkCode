@@ -1,0 +1,9 @@
+{"id": 55, "path": "Webpage/images/055.png", "type": "Webpage"}
+{"id": 55, "path": "Matplotlib/images/055.png", "type": "Matplotlib"}
+{"id": 55, "path": "HumanEval-V/images/055.png", "function_name": "get_odd_collatz", "evaluation_function": "def check(candidate):\n\n    # Check some simple cases\n    assert candidate(14) == [1, 5, 7, 11, 13, 17]\n    assert candidate(5) == [1, 5]\n    assert candidate(12) == [1, 3, 5], \"This prints if this assert fails 1 (good for debugging!)\"\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate(1) == [1], \"This prints if this assert fails 2 (also good for debugging!)\"\n\n", "type": "HumanEval-V"}
+{"id": 55, "path": "MBPP-V/images/055.png", "function_name": "change_date_format(dt)", "evaluation_function": "def check(change_date_format):\n    assert change_date_format('2026-01-02')=='02-01-2026'\n    assert change_date_format('2021-01-04')=='04-01-2021'\n    assert change_date_format('2030-06-06')=='06-06-2030'\n    ", "type": "MBPP-V"}
+{"id": 55, "path": "GSM8K-V/images/055.png", "function_name": "get_answer", "evaluation_function": "def check(candidate):\n    assert candidate() == 8400", "type": "GSM8K-V"}
+{"id": 55, "path": "MATH-V/images/055.png", "function_name": "get_answer", "evaluation_function": "def check(candidate):\n    assert candidate() == 14", "type": "MATH-V"}
+{"id": 55, "path": "SVG/images/055.png", "type": "SVG"}
+{"id": 55, "path": "TikZ/images/055.png", "type": "TikZ"}
+{"id": 55, "path": "VP/images/055.png", "ocr_result": "```\nSpartan\nSki\nClub\n```", "query": "How many people are taking a group photo?", "reference_answer": "14", "type": "VP"}
