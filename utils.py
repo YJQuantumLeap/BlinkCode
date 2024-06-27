@@ -346,45 +346,6 @@ def check_and_process_images(file_path):
             img.save(file_path, quality=80)
         file_size = os.path.getsize(file_path)
 
-
-def check_error_type(result_analysis, example, file_name):
-    task_type = example['task_type']
-    if example['original']['MLLM_answer'] == "":
-        result_analysis[file_name]["empty answer"] += 1
-        return
-    if task_type in ['math', 'code', 'math_vision', 'vp']:
-        if example["passed"] == False:
-            if get_python_code(example['original']['MLLM_answer']) == "":
-                result_analysis[file_name]["empty code"] += 1
-            elif "assertion" in example["error_type"].lower() or "Expect answer" in example["error_type"]:
-                result_analysis[file_name]["wrong answer"] += 1
-            else:
-                result_analysis[file_name]["syntax/runtime error"] += 1
-        else:
-            result_analysis[file_name]["passed"] += 1
-            # pass
-    else:
-        if example["error_type"] != "True":
-            if "this code is empty" in example["error_type"]:
-                result_analysis[file_name]["empty code"] += 1
-            elif "html code does not work properly 1" in example["error_type"]:
-                result_analysis[file_name]["syntax/runtime error"] += 1
-            elif "matplotlib code execution error:" in example["error_type"]:
-                result_analysis[file_name]["syntax/runtime error"] += 1
-            elif "tikz code does not work properly 1" in example["error_type"]:
-                result_analysis[file_name]["syntax/runtime error"] += 1
-            elif "svg code does not work properly 1":
-                result_analysis[file_name]["syntax/runtime error"] += 1
-            else:
-                result_analysis[file_name]["other error"] += 1
-        else:
-            score = example["score"]
-            if score == 0:
-                result_analysis[file_name]["wrong answer"] += 1
-            else:
-                result_analysis[file_name][f"score == {score}"] += 1
-
-
 def check_image_path(image_path1, image_path2):
     if image_path1 != None and image_path2 != None:
         return True
