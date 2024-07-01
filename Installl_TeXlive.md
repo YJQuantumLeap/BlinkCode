@@ -41,57 +41,24 @@ Enter `D` to access the directory settings menu.
 
 #### 2. Set New Main TeX Directory
 
-Enter `1` and set the `TEXDIR` to a desired path, for example:
-
+1. Enter `1` and set the `TEXDIR` to a desired path  
+for example:
 ```plaintext
 TEXDIR: ~/texlive/2024
 ```
 
-Ensure other directory settings are set to user directories. They might look like this:
-
-```plaintext
-TEXMFLOCAL: ~/texlive/texmf-local
-TEXMFSYSVAR: ~/texlive/2024/texmf-var
-TEXMFSYSCONFIG: ~/texlive/2024/texmf-config
-TEXMFVAR: ~/texlive/2024/texmf-var
-TEXMFCONFIG: ~/texlive/2024/texmf-config
-TEXMFHOME: ~/texmf
-```
-
-If your directory settings are correct, enter R to return to the main menu.
+2. Enter `R` to return to the main menu.
 
 #### 3. Set Installation Scheme
 To choose the scheme-full installation scheme for installing the complete TeX Live distribution, follow these steps:
 1. Enter `S` to open the scheme selection menu.
 2. Enter `a` to select the full scheme (everything).  
+3. Enter `R` to return to the main menu.
 
-The screen should look similar to this:
-```plaintext
-Select scheme:
-
-a [X] full scheme (everything)
-b [ ] medium scheme (small + more packages and languages)
-c [ ] small scheme (basic + xetex, metapost, a few languages)
-d [ ] basic scheme (plain and latex)
-e [ ] minimal scheme (plain only)
-f [ ] infrastructure-only scheme (no TeX at all)
-g [ ] book publishing scheme (core LaTeX and add-ons)
-h [ ] ConTeXt scheme
-i [ ] GUST TeX Live scheme
-j [ ] teTeX scheme (more than medium, but nowhere near full)
-k [ ] custom selection of collections
-
-Actions: (disk space required: 8397 MB)
-<R> return to main menu
-<Q> quit
-
-Enter letter to select scheme: a
-
-```
 
 #### 4. Confirm Installation Options
 
-Other installation options can be left as default. Ensure you have selected the complete installation scheme and the installation directory is set to a path with write permissions.
+Other installation options can be left as default. Ensure you have selected the complete installation scheme and the installation directory is set to a path with write permissions.  
 
 ## 4. Start Installation
 
