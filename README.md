@@ -1,37 +1,44 @@
-# BlinkCode: Benchmarking Multimodal Large Language Models
+# BlinkCode: Benchmarking Multimodal Large Language Models🔥
 
 [How Well Can Multimodal LLMs Write Code as Vision-Enabled Agents?](arxiv link)
- 
+
+![](https://img.shields.io/badge/Task-Code--Generation-red) 
+![](https://img.shields.io/badge/Task-Visual--Programming-red) 
+![Multimodal Reasoning](https://img.shields.io/badge/Task-Multi--Modal-red) 
+
+![GPT](https://img.shields.io/badge/Model-GPT-green) 
+![GPT-4V](https://img.shields.io/badge/Model-Claude-green)
+![GPT-4o](https://img.shields.io/badge/Model-LLava-green)
+![Gemini](https://img.shields.io/badge/Model-Gemini-green)
+![GPT-4](https://img.shields.io/badge/Model-Qwen-green) 
  <img src="figs/BlinkCode.png" width = "600"  alt="图片名称" align=center />
  
 BlinkCode is an innovative benchmark designed to evaluate the coding capabilities of multimodal large language models (MLLMs) that act as vision-enabled agents. This benchmark consists of 1,000 coding problems, organized into 9 distinct tasks, and is designed to test various abilities including complex reasoning, planning, tool usage, and interactive refinement based on visual information.  
 [[🌐 Homepage](https://mathvision-cuhk.github.io/)] [[🤗 Huggingface Dataset](https://huggingface.co/datasets/MathLLMs/MathVision)] [[📊 Leaderboard ](https://mathvision-cuhk.github.io/#leaderboard )]  [[📖 ArXiv Paper](https://arxiv.org/pdf/2402.14804.pdf)]
 
-## News
+## 💥News
 **[2024.6.xx]** [BlinkCode](arxiv link) is released! Data and evaluation code is available now.
 
-## Leaderboard
+## 🏆Leaderboard
 Welcome to [BlinkCode](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard)!
 
-### Leaderboard Submission
-待定
-## Data Preparation
+## 🤗Data Preparation
 
 You can download the data of BlinkCode released on HuggingFace repo [BlinkCode](huggingface link).
 
-## Installation
+## ⚙️Installation
 
 Please refer to [INSTALL.md](INSTALL.md).
 
-## Run Evaluation
+## 💻Run Evaluation
 
 Please refer to [EVALUATION.md](EVALUATION.md).
 
-## License
+## 📜License
 BlinkCode is released under the MIT License.
 
-## Declaration
-### Data Sources 
+## 📢Declaration
+### 📂Data Sources 
 #### Basic Coding Problems:
 - HumanEval-V: HumanEval Dataset (https://github.com/openai/human-eval) under its license (https://github.com/openai/human-eval/blob/master/LICENSE). Copyright belongs to the original dataset owner.
 - MBPP-V: MBPP Dataset (https://huggingface.co/datasets/google-research-datasets/mbpp) under its license (https://github.com/google-research/google-research/blob/master/LICENSE). Copyright belongs to the original dataset owner.
@@ -54,17 +61,17 @@ BlinkCode is released under the MIT License.
 
 Please contact us if you believe any data infringes upon your rights, and we will remove it.
 
-### Content Disclaimer
+### ⚠️Content Disclaimer
 The screenshots and code used in Visual Reconstruction Tasks and Visual Programming Problems are sourced from publicly accessible materials or are used under appropriate licenses for academic research purposes. This project does not assert ownership of these materials and acknowledges the rights of their respective owners.
 
 All efforts have been made to ensure compliance with copyright laws and permissions. If you believe that your rights have been infringed upon, please contact us immediately so that we can resolve the issue promptly.
 
-## Citing
+## 📝Citation
 If you find this repository helpful, please consider citing it:
 ```
 our cite
 ```
-## Acknowledgements
+## 🙏Acknowledgements
 
 We gratefully acknowledge the following individuals and projects whose work has inspired or directly contributed to the development of our current codebase:
 
