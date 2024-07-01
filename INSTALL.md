@@ -36,7 +36,7 @@ source ~/.bashrc  # or source ~/.zshrc
 ### Step 4: (Optional)Download Required Models for VIPER
 ```bash 
 cd BlinkCode
-bash download_viper_models.sh
+bash download_models.sh
 cd viper/GLIP
 python setup.py clean --all build develop --user
 cd ../..
