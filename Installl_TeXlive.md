@@ -41,7 +41,7 @@ Enter `D` to access the directory settings menu.
 
 #### 2. Set New Main TeX Directory
 
-Enter `T` and set the `TEXDIR` to a desired path, for example, `~/texlive/2024`:
+Enter `1` and set the `TEXDIR` to a desired path, for example, `~/texlive/2024`:
 
 ```plaintext
 TEXDIR: ~/texlive/2024
