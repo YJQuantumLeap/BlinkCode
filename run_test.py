@@ -286,7 +286,7 @@ def test(data_path, output_paths, error_output_path, round_limit, start_id, end_
         with open(f"logs/{model}.txt", "a") as f:
             f.write(f"type_id:{example['type']}_{example['id']}\n")
         # load vipergpt model
-        if 'VP' == example['type'] and "viper_exec_code" not in sys.modules:
+        if 'VP' == example['type'] and "call_vp_function" not in sys.modules:
             print("Loading vipergpt model")
             module = importlib.import_module("call_vp_function")
             globals().update(vars(module))
