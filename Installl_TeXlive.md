@@ -61,11 +61,32 @@ TEXMFHOME: ~/texmf
 If your directory settings are correct, enter R to return to the main menu.
 
 #### 3. Set Installation Scheme
+To choose the scheme-full installation scheme for installing the complete TeX Live distribution, follow these steps:
+1. Enter `S` to open the scheme selection menu.
+2. Enter `a` to select the full scheme (everything).  
 
-Enter `S` and choose the `scheme-full` installation scheme to install the complete TeX Live distribution:
-
+The screen should look similar to this:
 ```plaintext
-set installation scheme: scheme-full
+Select scheme:
+
+a [X] full scheme (everything)
+b [ ] medium scheme (small + more packages and languages)
+c [ ] small scheme (basic + xetex, metapost, a few languages)
+d [ ] basic scheme (plain and latex)
+e [ ] minimal scheme (plain only)
+f [ ] infrastructure-only scheme (no TeX at all)
+g [ ] book publishing scheme (core LaTeX and add-ons)
+h [ ] ConTeXt scheme
+i [ ] GUST TeX Live scheme
+j [ ] teTeX scheme (more than medium, but nowhere near full)
+k [ ] custom selection of collections
+
+Actions: (disk space required: 8397 MB)
+<R> return to main menu
+<Q> quit
+
+Enter letter to select scheme: a
+
 ```
 
 #### 4. Confirm Installation Options
