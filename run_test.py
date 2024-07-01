@@ -71,11 +71,6 @@ def mutiple_round_request(example, round_limit, model="gpt-4-vision-preview"):
     type = example['type']
     return_data = []
     result = processor_request(input, pre_image_path, model=model)
-    with open(f"logs/{model}.txt", "a") as f:
-        f.write(f"the not refine\n")
-        f.write(input + "\n")
-        f.write("MLLM response +++++++++++++++: MLLM response\n")
-        f.write(f"{result[1]}\n")
     if result[0] == False or round_limit == 1:
         return result[0], result[1]
     return_data.append(result[1])
@@ -226,13 +221,6 @@ def mutiple_round_request(example, round_limit, model="gpt-4-vision-preview"):
                 query, pre_image_path, model=model))
         else:
             raise Exception("type not supported")
-        # log
-        with open(f"logs/{model}.txt", "a") as f:
-            f.write(f"the {i} refine")
-            f.write('-'*30 + "\n")
-            f.write(query + "\n")
-            f.write("MLLM response +++++++++++++++: MLLM response\n")
-            f.write(f"{result[1]}\n")
 
         # The MLLM request succeeds, and no error message is reported, and you need to determine whether to end the request prematurely
         if result[0] == False:
@@ -273,7 +261,6 @@ def test(data_path, output_paths, error_output_path, round_limit, start_id, end_
         raise ValueError("round_limit != len(output_paths)")
     if not os.path.exists(data_path):
         raise ValueError("data_path must existed")
-    
     data = load_jsonl(data_path)
     need_test_data = []
     already_exist_data = {dist_data['type'] + f"_{dist_data['id']}": 1 for dist_data in load_jsonl(output_paths[0])}
@@ -282,11 +269,8 @@ def test(data_path, output_paths, error_output_path, round_limit, start_id, end_
         if d['type'] in dataset and unique_id not in already_exist_data and start_id <= int(d['id']) <= end_id:
             need_test_data.append(d)
     for example in tqdm(need_test_data):
-        # log
-        with open(f"logs/{model}.txt", "a") as f:
-            f.write(f"type_id:{example['type']}_{example['id']}\n")
         # load vipergpt model
-        if 'VP' == example['type'] and "call_vp_function" not in sys.modules:
+        if 'VP' == example['type'] and "viper_exec_code" not in sys.modules:
             print("Loading vipergpt model")
             module = importlib.import_module("call_vp_function")
             globals().update(vars(module))
@@ -324,7 +308,7 @@ if __name__ == '__main__':
     parser.add_argument("--end_id", type=int, default=999, 
                         help="End ID for the test (default: 999)")
     args = parser.parse_args()
-    original_data_path = f"data/tmp.jsonl"
+    original_data_path = f"data/dataset.jsonl"
     model = args.model_name
     if args.dataset == "all":
         dataset = ["VP", "Webpage", "Matplotlib", "SVG", "TikZ", "HumanEval-V", "MBPP-V", "GSM8K-V", "MATH-V"]
