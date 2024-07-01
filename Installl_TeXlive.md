@@ -41,13 +41,11 @@ Enter `D` to access the directory settings menu.
 
 #### 2. Set New Main TeX Directory
 
-Enter `1` and set the `TEXDIR` to a desired path, for example, `~/texlive/2024`:
+Enter `1` and set the `TEXDIR` to a desired path, for example:
 
 ```plaintext
 TEXDIR: ~/texlive/2024
 ```
-
-#### 3. Confirm Other Directory Settings
 
 Ensure other directory settings are set to user directories. They might look like this:
 
@@ -60,7 +58,9 @@ TEXMFCONFIG: ~/texlive/2024/texmf-config
 TEXMFHOME: ~/texmf
 ```
 
-#### 4. Set Installation Scheme
+If your directory settings are correct, enter R to return to the main menu.
+
+#### 3. Set Installation Scheme
 
 Enter `S` and choose the `scheme-full` installation scheme to install the complete TeX Live distribution:
 
@@ -68,7 +68,7 @@ Enter `S` and choose the `scheme-full` installation scheme to install the comple
 set installation scheme: scheme-full
 ```
 
-#### 5. Confirm Installation Options
+#### 4. Confirm Installation Options
 
 Other installation options can be left as default. Ensure you have selected the complete installation scheme and the installation directory is set to a path with write permissions.
 
