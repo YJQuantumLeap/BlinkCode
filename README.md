@@ -2,15 +2,6 @@
 
 [How Well Can Multimodal LLMs Write Code as Vision-Enabled Agents?](arxiv link)
 
-![](https://img.shields.io/badge/Task-Code--Generation-red) 
-![](https://img.shields.io/badge/Task-Visual--Programming-red) 
-![Multimodal Reasoning](https://img.shields.io/badge/Task-Multi--Modal-red) 
-
-![GPT](https://img.shields.io/badge/Model-GPT-green) 
-![GPT-4V](https://img.shields.io/badge/Model-Claude-green)
-![GPT-4o](https://img.shields.io/badge/Model-LLava-green)
-![Gemini](https://img.shields.io/badge/Model-Gemini-green)
-![GPT-4](https://img.shields.io/badge/Model-Qwen-green) 
  <img src="figs/BlinkCode.png" width = "600"  alt="图片名称" align=center />
  
 BlinkCode is an innovative benchmark designed to evaluate the coding capabilities of multimodal large language models (MLLMs) that act as vision-enabled agents. This benchmark consists of 1,000 coding problems, organized into 9 distinct tasks, and is designed to test various abilities including complex reasoning, planning, tool usage, and interactive refinement based on visual information.  
