@@ -62,13 +62,8 @@ Other installation options can be left as default. Ensure you have selected the 
 
 ## 4. Start Installation
 
-### 1. Begin Installation
-
 Enter `I` to start the installation:
 
-```plaintext
-start installation to hard disk
-```
 
 ## 5. Configure Environment Variables
 
