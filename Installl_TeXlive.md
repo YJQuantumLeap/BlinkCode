@@ -16,7 +16,7 @@ Next, extract the downloaded installer:
 
 ```bash
 tar -xvf install-tl-unx.tar.gz
-cd install-tl-*
+cd install-tl-20*
 ```
 
 ## 3. Run the TeX Live Installer
