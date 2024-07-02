@@ -5,10 +5,10 @@
  <img src="figs/BlinkCode.png" width = "600"  alt="图片名称" align=center />
  
 BlinkCode is an innovative benchmark designed to evaluate the coding capabilities of multimodal large language models (MLLMs) that act as vision-enabled agents. This benchmark consists of 1,000 coding problems, organized into 9 distinct tasks, and is designed to test various abilities including complex reasoning, planning, tool usage, and interactive refinement based on visual information.  
-[[🌐 Homepage](https://mathvision-cuhk.github.io/)] [[🤗 Huggingface Dataset](https://huggingface.co/datasets/MathLLMs/MathVision)] [[📊 Leaderboard ](https://mathvision-cuhk.github.io/#leaderboard )]  [[📖 ArXiv Paper](https://arxiv.org/pdf/2402.14804.pdf)]
+[[🌐 Homepage](https://yjquantumleap.github.io/blinkcode-home-page/)] [[🤗 Huggingface Dataset](https://huggingface.co/datasets/yajuniverse/BlinkCode)] [[📊 Leaderboard ](https://huggingface.co/spaces/yajuniverse/BlinkCode_leaderboard)]  [[📖 ArXiv Paper](https://arxiv.org/pdf/2402.14804.pdf)]
 
 ## 💥News
-**[2024.6.xx]** [BlinkCode](arxiv link) is released! Data and evaluation code is available now.
+**[2024.7.2]** [BlinkCode](arxiv link) is released! Data and evaluation code is available now.
 
 ## 🏆Leaderboard
 Welcome to [BlinkCode](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard)!
