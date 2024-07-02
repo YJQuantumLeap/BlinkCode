@@ -23,7 +23,7 @@ python run_test.py --model_name gpt-4o-2024-05-13 --round_limit 3 --dataset all 
 ```
 The results for each round will be saved in the following path:
 ```bash
-./output/{model_name}/{dataset_time}/output_{i}.jsonl
+./output/{model_name}/{start_time}/output_{i}.jsonl
 ```
 If `round_limit` is greater than 1, the script will perform refinements. For example, if `round_limit` is set to 3, the model will refine the answers twice.
 ### Using Your Own Model

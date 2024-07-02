@@ -11,11 +11,11 @@ BlinkCode is an innovative benchmark designed to evaluate the coding capabilitie
 **[2024.7.2]** [BlinkCode](arxiv link) is released! Data and evaluation code is available now.
 
 ## 🏆Leaderboard
-Welcome to [BlinkCode](https://huggingface.co/spaces/AILab-CVC/SEED-Bench_Leaderboard)!
+Welcome to [BlinkCode](https://huggingface.co/spaces/yajuniverse/BlinkCode_leaderboard)!
 
 ## 🤗Data Preparation
 
-You can download the data of BlinkCode released on HuggingFace repo [BlinkCode](huggingface link).
+You can download the data of BlinkCode released on HuggingFace repo [BlinkCode](https://huggingface.co/datasets/yajuniverse/BlinkCode).
 
 ## ⚙️Installation
 
