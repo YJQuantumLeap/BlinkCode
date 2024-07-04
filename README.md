@@ -1,4 +1,4 @@
-# BlinkCode: Benchmarking Multimodal Large Language Models🔥
+# BlinkCode: Benchmarking Multimodal Large Language Models
 
 [How Well Can Multimodal LLMs Write Code as Vision-Enabled Agents?](arxiv link)
 
