@@ -2,8 +2,10 @@
 
 [How Well Can Multimodal LLMs Write Code as Vision-Enabled Agents?](arxiv link)
 
- <img src="assets/BlinkCode.png" width = "600"  alt="图片名称" align=center />
- 
+ <div style="text-align: center;">
+  <img src="assets/BlinkCode.png" alt="Description">
+</div>
+
 BlinkCode is an innovative benchmark designed to evaluate the coding capabilities of multimodal large language models (MLLMs) that act as vision-enabled agents. This benchmark consists of 1,000 coding problems, organized into 9 distinct tasks, and is designed to test various abilities including complex reasoning, planning, tool usage, and interactive refinement based on visual information.  
 [[🌐 Homepage](https://yjquantumleap.github.io/blinkcode-home-page/)] [[🤗 Huggingface Dataset](https://huggingface.co/datasets/yajuniverse/BlinkCode)] [[📊 Leaderboard ](https://huggingface.co/spaces/yajuniverse/BlinkCode_leaderboard)]  [[📖 ArXiv Paper](https://arxiv.org/pdf/2402.14804.pdf)]
 
